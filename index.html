@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/movil.css">
+  <script src="https://kit.fontawesome.com/600b045a2f.js" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script src="jquery.tinycarousel.js"></script>
+
+  <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <script src="wow.min.js"></script>
+
+  <title>Cocina</title>
+</head>
+
+<body>
+  <nav>
+    <div>
+      <figure><img src="imagenes/logo.png" alt="Logo"></figure>
+    </div>
+    <div class="contIconoMenu">
+      <p>MENU</p>
+      <i id="iconomenu" class="fa-solid fa-bars"></i>
+    </div>
+
+    <div id="menu" class="contenedorMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="form.html">Contact</a></li>
+        <i id="mostrar" class="fa-solid fa-magnifying-glass"></i>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="modal" class="modal_background">
+    <div class="modal">
+      <div>
+        <p>Type Your Keywoard</p>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      <br>
+      <i id="cerrarBtn" class=" tacha fa-solid fa-x"></i>
+    </div>
+
+</div>
+
+  <section class="callbacks_container animate__animated animate__backInDown">
+    <ul class="rslides" id="slider4">
+      <li>
+        <img src="imagenes/slide1.jpg" alt="">
+        <h2 class="caption">Food & French café <br> Cooking photograpy</h2>
+        <div class="btns_slide">
+          <a href="#" class="btn_get">Get Started</a>
+          <a href="" class="btn_order">Order Online</a>
+        </div>
+
+      </li>
+      <li>
+        <img src="imagenes/slide2.jpg" alt="">
+        <h2 class="caption">Food & French café <br> Cooking photograpy</h2>
+        <div class="btns_slide">
+          <a href="#" class="btn_get">Get Started</a>
+          <a href="" class="btn_order">Order Online</a>
+      </li>
+      <li>
+        <img src="imagenes/slide3.jpg" alt="">
+        <h2 class="caption">Food & French café <br> Cooking photograpy</h2>
+        <div class="btns_slide">
+          <a href="#" class="btn_get">Get Started</a>
+          <a href="" class="btn_order">Order Online</a>
+      </li>
+    </ul>
+    <a href="#" class="callbacks_nav callbacks1_nav prev">Previous</a>
+    <a href="#" class="callbacks_nav callbacks1_nav next">Next</a>
+  </section>
+
+  <section class="postres ancho wow animate__animated animate__backInUp animate__delay-2s">
+    <article>
+      <figure>
+        <img src="imagenes/cook.png" alt="">
+      </figure>
+      <h3>Berry White Cake</h3>
+      <p>Consectetur adipisicing elit, sed do eiusmod tempor</p>
+      <hr>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/ice.png" alt="">
+      </figure>
+      <h3>Caramel Mocha</h3>
+      <p>Consectetur adipisicing elit, sed do eiusmod tempor</p>
+      <hr>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/croasan.png" alt="">
+      </figure>
+      <h3>Berry White Piza</h3>
+      <p>Consectetur adipisicing elit, sed do eiusmod tempor</p>
+      <hr>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/cuernito.png" alt="">
+      </figure>
+      <h3>Bakery Croissant</h3>
+      <p>Consectetur adipisicing elit, sed do eiusmod tempor</p>
+      <hr>
+    </article>
+  </section>
+
+  <section class="ancho img_texto">
+    <figure>
+      <img src="imagenes/comida.jpg" alt="">
+    </figure>
+    <div>
+      <h3>About Our Company</h3>
+      <h2>Creating The best-tasting bread, dessets, and coffe</h2>
+      <p class="primerTexto">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua</p>
+      <p class="segundoTexto">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+      <a href="#">Our About Us</a>
+    </div>
+  </section>
+
+  <div class="seccionTitulo ancho">
+    <h3>Our Portfolio</h3>
+    <h2>The best Product-tasting Fruits, <br> Apple, and Orange</h2>
+  </div>
+
+  <section id="slider1" class="ancho">
+    <div class="viewport wow animate__animated animate__bounceInRight animate__delay-1s">
+      <div class="overview">
+        <article class="cards">
+          <img src="imagenes/c1.jpg" alt="">
+          <div class="hvr-rectangle-out">
+            <div class="flecha">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="textoArt">
+              <h3>Lemon Basil Orzo</h3>
+              <p>Orange Drinking</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards">
+          <img src="imagenes/c2.jpg" alt="">
+          <div class="hvr-rectangle-out">
+            <div class="flecha">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="textoArt">
+              <h3>Vegetable and Mushroom</h3>
+              <p>Rice Casserole</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards">
+          <img src="imagenes/c3.jpg" alt="">
+          <div class="hvr-rectangle-out">
+            <div class="flecha">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="textoArt">
+              <h3>Ulktimate Spring Brnuch</h3>
+              <p>Breakfast fuits</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards">
+          <img src="imagenes/c4.jpg" alt="">
+          <div class="hvr-rectangle-out">
+            <div class="flecha">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="textoArt">
+              <h3>Super Easy egg and Green</h3>
+              <p>Bowl salad</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards">
+          <img src="imagenes/c5.jpg" alt="">
+          <div class="hvr-rectangle-out">
+            <div class="flecha">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="textoArt">
+              <h3>Spicy Southern Style fruits</h3>
+              <p>Fruits Drinking</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="botonesPrevNext">
+        <a href=""><i class=" buttons prev fa-solid fa-circle"></i></a>
+        <a href=""><i class=" buttons next fa-solid fa-circle"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="seccionTitulo ancho">
+    <h3>Our Menu Product</h3>
+    <h2>Appetizer Recipes We Love <br>desserts, and coffee</h2>
+  </div>
+
+  <section class=" ancho comidaMenu">
+    <article>
+      <figure>
+        <img src="imagenes/eggandrice.jpg" alt="">
+        <div>
+          <p class="sale">SALE!</p>
+        </div>
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Egg & Rice</h2>
+      <br>
+      <div class="precios">
+        <p class="p1">$15 </p>
+        <p class="p2"> $10</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/freshandfood.jpg" alt="">
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Fresh $ Food</h2>
+      <br>
+      <div class="precios">
+        <p class="p2"> $12</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/riceandvegetables.jpg" alt="">
+        <div>
+          <p class="sale">SALE!</p>
+        </div>
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Rice & Vegetable</h2>
+      <br>
+      <div class="precios">
+        <p class="p1">$10 </p>
+        <p class="p2"> $7</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/eggcurrypuff.jpg" alt="">
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Egg Curry Puff</h2>
+      <br>
+      <div class="precios">
+        <p class="p2"> $8</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/breadfeed.jpg" alt="">
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Bread Feed</h2>
+      <br>
+      <div class="precios">
+        <p class="p2"> $15</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/colorfulsmoothie.jpg" alt="">
+        <div>
+          <p class="sale">SALE!</p>
+        </div>
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Colorful Smoothie</h2>
+      <br>
+      <div class="precios">
+        <p class="p1">$18 </p>
+        <p class="p2"> $15</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/firstbreackfast.jpg" alt="">
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>First breackfast</h2>
+      <br>
+      <div class="precios">
+        <p class="p2"> $13</p>
+      </div>
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/colorfruits.jpg" alt="">
+        <div>
+          <p class="sale">SALE!</p>
+        </div>
+        <div class="iconosCM">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </figure>
+      <h2>Colorfut Fruit</h2>
+      <br>
+      <div class="precios">
+        <p class="p1">$25</p>
+        <p class="p2"> $24</p>
+      </div>
+    </article>
+  </section>
+  <br><br>
+
+  <section class="cantidades ancho">
+    <div class="imgCan wow animate__animated animate__flipInX animate__delay-1,5s">
+      <img src="imagenes/ice.png" alt="">
+      <div>
+        <h2>39+</h2>
+        <p>Pastry Shops</p>
+      </div>
+    </div>
+
+    <div class="imgCan wow animate__animated animate__flipInX animate__delay-1,5s">
+      <img src="imagenes/croasan.png" alt="">
+      <div>
+        <h2>60+</h2>
+        <p>Chocolate Cakes</p>
+      </div>
+    </div>
+
+    <div class="imgCan wow animate__animated animate__flipInX animate__delay-1,5s">
+      <img src="imagenes/cook.png" alt="">
+      <div>
+        <h2>12+</h2>
+        <p>Pastry Chef</p>
+      </div>
+    </div>
+
+    <div class="imgCan wow animate__animated animate__flipInX animate__delay-1,5s">
+      <img src="imagenes/cuernito.png" alt="">
+      <div>
+        <h2>34+</h2>
+        <p>Caramel Mocha</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="seccionTitulo ancho">
+    <h3>Our Feature</h3>
+    <h2>The best Features Fruits <br>Product Theme</h2>
+  </div>
+
+  <section id="slider2" class="ancho">
+    <div class="viewport">
+      <div class="overview">
+        <article class="cards2">
+          <img src="imagenes/c_1.jpg" alt="">
+          <div class="textoCard2">
+            <h2>Colorful Smoothie</h2>
+            <p>Consecteur adipisicing elit, sed to eiumsod tempor incididut ut</p>
+            <hr>
+            <div class="imagenesPequeñas">
+              <div>
+                <img src="imagenes/imgPequeña1.jpg" alt="">
+                <p>Bread</p>
+              </div>
+              <div>
+                <img src="imagenes/imgPequeña2.jpg" alt="">
+                <p>Sula</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="cards2">
+          <img src="imagenes/c_2.jpg" alt="">
+          <div class="textoCard2">
+            <h2>Sasmusa & Vegetables</h2>
+            <p>Consecteur adipisicing elit, sed to eiumsod tempor incididut ut</p>
+            <hr>
+            <div class="imagenesPequeñas">
+              <div>
+                <img src="imagenes/imgPequeña1.jpg" alt="">
+                <p>Bread</p>
+              </div>
+              <div>
+                <img src="imagenes/imgPequeña2.jpg" alt="">
+                <p>Sula</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="cards2">
+          <img src="imagenes/c_3.jpg" alt="">
+          <div class="textoCard2">
+            <h2>Bread Vegetables Cakes</h2>
+            <p>Consecteur adipisicing elit, sed to eiumsod tempor incididut ut</p>
+            <hr>
+            <div class="imagenesPequeñas">
+              <div>
+                <img src="imagenes/imgPequeña1.jpg" alt="">
+                <p>Bread</p>
+              </div>
+              <div>
+                <img src="imagenes/imgPequeña2.jpg" alt="">
+                <p>Sula</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+        <article class="cards2">
+          <img src="imagenes/c_4.jpg" alt="">
+          <div class="textoCard2">
+            <h2>Fresh Orange Fruit</h2>
+            <p>Consecteur adipisicing elit, sed to eiumsod tempor incididut ut</p>
+            <hr>
+            <div class="imagenesPequeñas">
+              <div>
+                <img src="imagenes/imgPequeña1.jpg" alt="">
+                <p>Bread</p>
+              </div>
+              <div>
+                <img src="imagenes/imgPequeña2.jpg" alt="">
+                <p>Sula</p>
+              </div>
+
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="botonesPrevNext2">
+        <i class=" buttons prev fa-solid fa-arrow-left"></i>
+        <i class=" buttons next fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+  <section class="paralax">
+    <div>
+      <h3>Our Company Brand</h3>
+      <h2>Best The Bakery Brand</h2>
+      <a href="">Our About Awards</a>
+    </div>
+  </section>
+
+  <div class="seccionTitulo ancho">
+    <h3>Our Testimonial</h3>
+    <h2>What A Clients Say ?</h2>
+  </div>
+
+  <div class="acordeon">
+    <div class="primero uno">
+      <img src="imagenes/M1.png" alt="">
+      <div>
+        <h1>Parvin Khan</h1>
+        <p>Co-Of Officer</p>
+      </div>
+      <div class="iconos">
+        <i class="fa-solid fa-plus mas1"></i>
+        <i class="fa-solid fa-minus menos1"></i>
+      </div>
+    </div>
+    <p class=" acordeon_contenido contenido1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus asperiores nesciunt provident optio eveniet incidunt corrupti tenetur est ullam sapiente, facilis exercitationem iusto, dolore atque maiores error debitis, quibusdam deserunt?</p>
+  </div>
+<br>
+  <div class="acordeon">
+    <div class="primero dos">
+      <img src="imagenes/M2.png" alt="">
+      <div>
+        <h1>Parvin Khan</h1>
+        <p>Co-Of Officer</p>
+      </div>
+      <div class="iconos">
+        <i class="fa-solid fa-plus mas2"></i>
+        <i class="fa-solid fa-minus menos2"></i>
+      </div>
+    </div>
+    <p class=" acordeon_contenido contenido2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus asperiores nesciunt provident optio eveniet incidunt corrupti tenetur est ullam sapiente, facilis exercitationem iusto, dolore atque maiores error debitis, quibusdam deserunt?</p>
+  </div>
+<br>
+  <div class="acordeon">
+    <div class="primero tres">
+      <img src="imagenes/M3.png" alt="">
+      <div>
+        <h1>Parvin Khan</h1>
+        <p>Co-Of Officer</p>
+      </div>
+      <div class="iconos">
+        <i class="fa-solid fa-plus mas3"></i>
+        <i class="fa-solid fa-minus menos3"></i>
+      </div>
+    </div>
+    <p class=" acordeon_contenido contenido3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus asperiores nesciunt provident optio eveniet incidunt corrupti tenetur est ullam sapiente, facilis exercitationem iusto, dolore atque maiores error debitis, quibusdam deserunt?</p>
+  </div>
+  <br>
+  <div class="seccionTitulo ancho">
+    <h3>Our Latest Blog</h3>
+    <h2>Stay Motivated, Read the Blog</h2>
+  </div>
+
+  <section class=" ancho lastBlog">
+    <article>
+      <figure>
+        <img src="imagenes/stay1.jpg" alt="">
+      </figure>
+      <div class="cont1">
+        <div>
+          <i class="fa-solid fa-person"></i>
+          <p>Pocket</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-clock"></i>
+          <p>24 Aug 2021</p>
+        </div>
+      </div>
+      <div class="cont2">
+        <h3>How invensting in business</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod fugit eius, quo aspernatur assumenda tenetur fuga ad</p>
+        <a href="">Read More</a>
+      </div>
+      
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/stay2.jpg" alt="">
+      </figure>
+      <div class="cont1">
+        <div>
+          <i class="fa-solid fa-person"></i>
+          <p>Pocket</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-clock"></i>
+          <p>24 Aug 2021</p>
+        </div>
+      </div>
+      <div class="cont2">
+        <h3>How invensting in business</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod fugit eius, quo aspernatur assumenda tenetur fuga ad</p>
+        <a href="">Read More</a>
+      </div>
+      
+    </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/stay3.jpg" alt="">
+      </figure>
+      <div class="cont1">
+        <div>
+          <i class="fa-solid fa-person"></i>
+          <p>Pocket</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-clock"></i>
+          <p>24 Aug 2021</p>
+        </div>
+      </div>
+      <div class="cont2">
+        <h3>How invensting in business</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod fugit eius, quo aspernatur assumenda tenetur fuga ad</p>
+        <a href="">Read More</a>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    <div class="fondo">
+      <div class="ACF redes">
+        <img src="imagenes/logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, obcaecati possimuse.</p>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-twitter"></i>
+      </div>
+
+      <div class=" ACF AddUs">
+        <h3>Address Us</h3>
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Adress: 21 Division St, Rangpur, RS 101215, RMS</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <p>Phone: +06544451100</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p>Email: info@example.com</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-clock"></i>
+          <p>Opening Hours: 9am-5pm</p>
+        </div>
+      </div>
+      <div class="ACF Recent">
+        <div>
+          <img src="imagenes/rp1.jpg" alt="">
+          <p>How investing in business depended increasing to</p>
+          <p>August 24, 2021</p>
+        </div>
+        <div>
+          <img src="imagenes/rp2.jpg" alt="">
+          <p>Email marketing tips that will increase your sales.</p>
+          <p>August 24, 2021</p>
+        </div>
+      </div>
+
+      <div class="ACF Working">
+        <p>Tuesday - Friday 08:00 - 20:00</p>
+        <p>Saturday 09:00 - 18:00</p>
+        <p>Sunday 09:00 - 18:00</p>
+        <p>Monday 09:00 - 18:00</p>
+      </div>
+    </div>
+  </footer>
+
+  <i onclick="subir()" id="subir" class=" up fa-sharp fa-solid fa-arrow-up"></i>
+
+  <script>
+
+
+
+    //script para el menú sandwich
+    $("#iconomenu").click(function () {
+      $("#menu").slideToggle();
+    });
+
+    //Script para el slide
+    $(function () {
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+    });
+
+
+    //Carrusel
+
+    $(document).ready(function () {
+      $('#slider1').tinycarousel();
+    });
+
+    $(document).ready(function () {
+      $('#slider2').tinycarousel();
+    });
+    $(document).ready(function () {
+      $('#slider3').tinycarousel();
+    });
+    //wow
+    new WOW().init();
+
+    $(".uno").click(function () {
+          $(".contenido1").slideToggle();
+          $(".mas1").toggleClass("desaparecer");
+        });
+        $(".dos").click(function () {
+          $(".contenido2").slideToggle();
+          $(".mas2").toggleClass("desaparecer");
+        });
+        $(".tres").click(function () {
+          $(".contenido3").slideToggle();
+          $(".mas2").toggleClass("desaparecer");
+        });
+
+        //Boton Subir
+    window.onscroll = function() {mostrarBotonSubir()};
+
+    function mostrarBotonSubir() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("subir").style.display = "block";
+      } else {
+        document.getElementById("subir").style.display = "none";
+      }
+    }
+
+    function subir() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  //modal
+
+  var fondomondal = document.getElementById("modal");
+        var mostrar = document.getElementById("mostrar");
+        var cerrar = document.getElementById("cerrarBtn");
+
+        mostrar.onclick=function(){
+            fondomondal.style.display="flex";
+        };
+
+        cerrar.onclick=function(){
+            fondomondal.style.display="none";
+        };
+
+  </script>
+
+</body>
+
+</html>
